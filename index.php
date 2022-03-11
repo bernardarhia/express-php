@@ -8,6 +8,6 @@ $router->get("/", function ($req,  $res) {
     $res->status(400)->send("Hello World");
 });
 
-$router->get("/users", function ($req,  $res) {
+$router->get("/users/:id", function ($req,  $res) {
     $res->status(400)->send("Hello World");
 });
